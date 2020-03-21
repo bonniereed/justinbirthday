@@ -24,7 +24,7 @@ head {
 .page{
     background-image: url(../Jimages/gray_sand.png);
     max-width: vh50%;
-    height: 90%;
+    height: vh90%;
     
 
 }
@@ -177,6 +177,49 @@ footer{
     text-align: center;
     color: purple;
 }   
+@media (min-width: 400px){
+
+    .who{
+        display: none;
+    }
+    
+    }
+
+    .babyImage{
+        display: flex;
+        justify-content: center;
+        padding-top: 10%px;
+    
+    }
+    .biz{
+        height: 100%;
+        width: 150%;
+        margin-top: -4%;
+        margin-left: 5%;
+        margin-right: 5%;
+        animation: rotation 60s infinite linear;
+    }
+    .peanut{
+        height: 50%;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        animation: rotation 60s infinite linear;
+    }
+    .stanzy{
+        height: 50%;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        animation: rotation 60s infinite linear;
+    }
+    @keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+
+
 
 @keyframes shake {
         0% { transform: translate(1px, 1px) rotate(0deg); }
