@@ -1,0 +1,201 @@
+
+head {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+
+
+}
+
+.top{ display: flex;
+    width: 100%;
+    
+
+}
+
+.aboutMe{
+    padding-top: 20px;
+    margin: 25px;
+    font-size: 78px;
+    font-weight: bold;
+}
+
+
+.page{
+    background-image: url(../Jimages/gray_sand.png);
+    max-width: vh50%;
+    height: 90%;
+    
+
+}
+.who{
+    max-width: 25%;
+    background-image: linear-gradient(to right, violet,indigo,blue, green,yellow,orange, red);
+    flex: 1;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.content{
+    float: right;
+    
+}
+
+hr{
+    height: 2px;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border: none;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+body {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: #777777;
+    border-color: #dddddd;
+    border: 960px;
+    box-sizing: border-box;
+
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+    height:10px;
+    margin-bottom: -50px;
+  }
+
+li{
+    margin:5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #777777;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+
+.couple{
+    justify-content: center;
+    float: right;
+}
+
+.rainbowHuman{
+display: flex;
+}
+
+}
+.image{
+
+
+}
+a:visited{
+    color: #666666;
+
+}
+.aboutMe {
+    color: #4aaaa5;
+    font-size: larger;
+}
+
+img{
+    float: left;
+    height: 500px;
+    width: 250px
+
+
+}
+.happyBirthday{
+    font-size: 36px;
+    color: grey;
+    text-align: center;
+
+}
+
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff; 
+    align-content: left;
+    
+    
+}
+
+.babyImage{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+
+}
+.biz{
+    height: 550px;
+    width: 600px;
+    margin-left: 25px;
+    margin-right: 25px;
+    animation: rotation 60s infinite linear;
+}
+.peanut{
+    height: 450px;
+    width: 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+    animation: rotation 2s infinite linear;
+}
+.stanzy{
+    height: 450px;
+    width: 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+    animation: rotation 30s infinite linear;
+}
+footer{
+    height:10px;
+    text-align: center;
+    color: purple;
+}   
+
+@keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
