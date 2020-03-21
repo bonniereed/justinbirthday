@@ -202,15 +202,13 @@ footer{
     .peanut{
         height: 100%;
         width: 150%;
-        margin-top: -4%;
         margin-left: 5%;
         margin-right: 5%;
         animation: rotation 2s infinite linear;
     }
     .stanzy{
-        height: 100%;
-        width: 150%;
-        margin-top: -4%;
+        height: 50%;
+        width: 100%;
         margin-left: 5%;
         margin-right: 5%;
         animation: rotation 30s infinite linear;
